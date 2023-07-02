@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Clientes</title>
+    <link rel="stylesheet" href="classes.css">
+</head>
+<body>
+    <div class="logo"><img src="images/logo_branca.png" style: height="200px" width="200px" alt="Logo de uma casa">
+    </div>
+    <div>
+        <nav class="linha-texto">
+            <a href="paginaprincipal.html" class="clientes" style="color: #ebebeb">Página Principal</a>
+            <a href="pagimoveis.html" class="clientes" style="color: #ebebeb">Página Imóveis</a>
+            <a href="pagalugueis.html" class="clientes" style="color: #ebebeb">Página Aluguéis</a>
+        </nav>
+    </div>
+    <a class="relatorio"href="relatorioclientes.html">&#x25CF; Relatório dos Clientes</a>
+    <h1 class="titulo">Clientes</h1>
+    <section class="contorno">
+        <form style="margin-bottom: -20px">
+            <div style="margin-left: -60px;">
+                <label>Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <br>
+            <div>
+                <label>CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="ex: 111.111.111-11">
+                <label>Data de nascimento:</label>
+                <input type="text" name="nascimento" id="nascimento" placeholder="00/00/0000">  
+            </div>
+            <br>
+            <div class="grupo">
+                <div style="margin-left: 100px;">
+                  <label>Sexo:</label>
+                  <select id="sexo">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro(a)</option>
+                  </select>
+                </div>
+                <div style="margin-left: 50px;">
+                  <label>Salário:</label>
+                  <input type="text" name="salario" id="salario">
+                </div>
+            </div>              
+            <br>
+            <div>
+                <label>Emails:</label>
+                <input type="email" nome="email" id="email" placeholder="seu_email@gmail.com">
+                <input type="submit" value="Adicionar">
+                <label>Telefones:</label>
+                <input type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+                <input type="submit" value="Adicionar">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Buscar">
+            </div>
+        </form>
+    </section>    
+</body>
+</html>

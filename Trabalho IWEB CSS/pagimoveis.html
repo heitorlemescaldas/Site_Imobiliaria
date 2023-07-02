@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Imóveis</title>
+    <link rel="stylesheet" href="classes.css">
+</head>
+<body>
+    <div class="logo"><img src="images/logo_branca.png" style: height="200px" width="200px" alt="Logo de uma casa">
+    </div>
+    <div>
+        <nav class="linha-texto">
+            <a href="paginaprincipal.html" class="clientes" style="color: #ebebeb">Página Principal</a>
+            <a href="pagclientes.html" class="clientes" style="color: #ebebeb">Página Clientes</a>
+            <a href="pagalugueis.html" class="clientes" style="color: #ebebeb">Página Aluguéis</a>
+            
+        </nav>
+    </div>
+    <a class="relatorio"href="relatorioimoveis.html">&#x25CF; Relatório de Imóveis</a>
+    <h1 class="titulo">Imóveis</h1>
+    <form class="contorno">
+        <div>
+            <label>Código do Imóvel:</label>
+            <input type="text" name="codigo" id="codigo">
+            <label>Descrição:</label>
+            <input type="text" name="descricao" id="descricao">
+        </div>
+        <br>
+        <div>
+            <label>Rua:</label>
+            <input type="text" name="rua" id="rua">
+            <label>Número:</label>
+            <input type="text" name="numero" id="numero">
+            <label>Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+        </div>
+        <br>
+        <div>
+            <label>CEP:</label>
+            <input type="text" name="cep" id="cep">
+        </div>
+        <br>
+        <div>
+            <label>País:</label>
+            <input type="text" name="pais" id="pais">
+            <label>Estado:</label>
+                <select id="estado">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" id="cidade">
+        </div>
+        <br>
+        <div>
+            <label>Tipo:</label>
+            <input type="text" name="tipo" id="tipo">
+        </div>
+        <br>
+        <div>
+            <label>Quantidade de Quartos:</label>
+                <select id="estado">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>Outro(a)</option>
+                </select>
+                <label>Quantidade de Suítes:</label>
+                <select id="estado">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>Outro(a)</option>
+                </select>
+                <br>
+                <label>Quantidade de Garagens:</label>
+                <select id="estado">
+                    <option selected disabled value="">Selecione...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>Outro(a)</option>
+                </select>
+        </div>
+        <br>
+        <div>
+            <label>Itens de segurança:</label>
+            <input type="text" name="seguranca" id="seguranca" placeholder="ex: câmeras, cerca elétrica">
+            <input type="submit" value="Adicionar">
+        </div>
+        <br>
+        <div>
+            <label>Valor aluguel:</label>
+            <input type="text" name="aluguel" id="aluguel">
+            <label>Valor condomínio:</label>
+            <input type="text" name="condominio" id="condominio">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Cadastar">
+            <input type="submit" value="Buscar">
+        </div>
+    </form>
+</body>
+</html>

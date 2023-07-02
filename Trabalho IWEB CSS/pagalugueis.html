@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Aluguéis</title>
+    <link rel="stylesheet" href="classes.css">
+</head>
+<body>
+    <div class="logo"><img src="images/logo_branca.png" style: height="200px" width="200px" alt="Logo de uma casa">
+    </div>
+    <div>
+        <nav class="linha-texto">
+            <a href="paginaprincipal.html" class="clientes" style="color: #ebebeb">Página Principal</a>
+            <a href="pagclientes.html" class="clientes" style="color: #ebebeb">Página Clientes</a>
+            <a href="pagimoveis.html" class="clientes" style="color: #ebebeb">Página Imóveis</a>
+            
+        </nav>
+    </div>
+    <a class="relatorio"href="relatorioalugueis.html">&#x25CF; Relatório de Aluguéis</a>
+    <h1 class="titulo">Aluguéis</h1>
+    <form class="contorno">
+        <div>
+            <label>CPF Cliente:</label>
+            <input type="text" name="cpf clientes" id="cpf clientes">
+            <label>Código Imóvel:</label>
+            <input type="text" name="codigo" id="codigo">
+        </div>
+        <br>
+        <div>
+            <label>Data de entrada:</label>
+            <input type="text" name="data de entrada" id="data de entrada">
+            <label>Data de saída:</label>
+            <input type="text" name="data de saide" id="data de saida">
+        </div> 
+        <br>
+        <div>
+            <label>CPF Fiador:</label>
+            <input type="text" name="cpf fiador" id="cpf fiador">
+            <label>Nome Fiador:</label>
+            <input type="text" name="nome fiador" id="nome fiador">
+        </div>
+        <br>
+        <div>
+            <label>Valor mensal:</label>
+            <input type="text" name="valor mensal" id="valor mensal">R$
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Cadastar">
+            <input type="submit" value="Buscar">
+        </div>
+    </form>
+</body>
+</html>
